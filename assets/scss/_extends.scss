@@ -1,0 +1,21 @@
+%container {
+   padding-left: $gap;
+   padding-right: $gap;
+   max-width: $ul;
+   margin: auto;
+}
+%text-h2 {
+   margin-top: 0;
+   letter-spacing: 0.1em;
+   color: $color-primary;
+   font-family: $font-header;
+   line-height: 1.2em;
+}
+%text-p {
+   color: $color-gray;
+}
+%text-h3 {
+   letter-spacing: 0.05em;
+    color: $color-gray;
+    font-size: 1.125rem;
+}

@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: $font-size;
+  font-family: $font-main;
+  overflow-y: scroll;
+  color: $color-gray;
+}
+h1 {
+  font-family: $font-header;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.08em;
+  line-height: 1.2em;
+
+  @include lg-min {
+    font-size: 3.75rem;
+  }
+
+  @include lg-md {
+    font-size: 2.5rem;
+  }
+
+  @include md {
+    font-size: 1.875rem;
+  }
+}
+a {
+  color: $color-light;
+  text-decoration: none;
+}
+.btn {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.1em;
+  transition: background-color 0.5s;
+}
+.btn--light {
+  border: 2px solid $color-light;
+  background-color: rgba($color-light, 0.1);
+
+  @include lg-min {
+    font-size: 1.125rem;
+    min-width: 250px;
+    padding: 18px $gap;
+    height: 60px;
+  }
+
+  @include lg-md {
+    height: 50px;
+    min-width: 200px;
+    padding: 14px $gap;
+  }
+
+  @include md {
+    height: 40px;
+    min-width: 170px;
+    padding: 9px $gap;
+  }
+  @include md-sm {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @include sm {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.btn--primary {
+  height: 60px;
+  padding: 18px $gap;
+  font-size: 1.125rem;
+  border: 2px solid $color-primary;
+  background-color: rgba($color-primary, 0.8);
+}
+.btn--primary:hover,
+.btn--light:hover {
+  background-color: $color-accent;
+}
