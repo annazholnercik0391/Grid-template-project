@@ -1,7 +1,7 @@
 .header-content {
   position: relative;
   &__title {
-    // To do проверить размер в adobe XD
+    
     @include lg-min {
       margin: 0 0 53px 0;
     }
