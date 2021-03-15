@@ -49,7 +49,18 @@
   border-bottom-color: rgba($color-light, 0.25);
   background-color: rgba($color-light, 0.05);
   font-size: 1.125rem;
+
+  &::placeholder {
+    color: $color-gray;
+  }
+
+  &:hover::placeholder,
+  &:focus::placeholder {
+    color: #8c9bab;
+  }
 }
+
+
 .form-item__input:hover,
 .form-item__input:focus {
   border-color: rgba($color-light, 0.15);

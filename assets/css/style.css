@@ -918,6 +918,46 @@ a {
   font-size: 1.125rem;
 }
 
+.form-item__input::-webkit-input-placeholder {
+  color: #637588;
+}
+
+.form-item__input::-moz-placeholder {
+  color: #637588;
+}
+
+.form-item__input:-ms-input-placeholder {
+  color: #637588;
+}
+
+.form-item__input::-ms-input-placeholder {
+  color: #637588;
+}
+
+.form-item__input::placeholder {
+  color: #637588;
+}
+
+.form-item__input:hover::-webkit-input-placeholder, .form-item__input:focus::-webkit-input-placeholder {
+  color: #8c9bab;
+}
+
+.form-item__input:hover::-moz-placeholder, .form-item__input:focus::-moz-placeholder {
+  color: #8c9bab;
+}
+
+.form-item__input:hover:-ms-input-placeholder, .form-item__input:focus:-ms-input-placeholder {
+  color: #8c9bab;
+}
+
+.form-item__input:hover::-ms-input-placeholder, .form-item__input:focus::-ms-input-placeholder {
+  color: #8c9bab;
+}
+
+.form-item__input:hover::placeholder, .form-item__input:focus::placeholder {
+  color: #8c9bab;
+}
+
 .form-item__input:hover,
 .form-item__input:focus {
   border-color: rgba(255, 255, 255, 0.15);
@@ -940,7 +980,7 @@ a {
 }
 
 .post-item:hover {
-  background-color: darken #e5e5e5, 10%;
+  background-color: #cccccc;
 }
 
 .post-item:hover .post-item__image img {
@@ -1273,7 +1313,7 @@ a {
     right: 40px;
     display: none;
     text-align: right;
-    background-color: rgba(68, 89, 110, 0.5);
+    background-color: rgba(68, 89, 110, 0.9);
     -webkit-box-shadow: -3px 3px 20px -10px black;
             box-shadow: -3px 3px 20px -10px black;
   }

@@ -3,7 +3,7 @@
     background-color: darken($color-light, 5%);
 
     &:hover {
-        background-color: darken ($color-gray-light, 10%);
+        background-color: darken($color-gray-light, 10%);
         .post-item__image img {
             transform: scale(1.1);
         }
